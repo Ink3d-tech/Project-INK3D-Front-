@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🛍️ The INK3D Project
 
-## Getting Started
+📌 Proyecto Final - Carrera: Full Stack
 
-First, run the development server:
+📢 Integrantes del equipo:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ignacio Alonso - Frontend
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+David Álvarez - Frontend
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Laura Jiménez - Frontend
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Facundo Biagioni - Frontend
 
-## Learn More
+Ariel Morales - Backend
 
-To learn more about Next.js, take a look at the following resources:
+Camilo Corredor - Backend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Gino Pacheco - Backend
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🏢 Caso de negocio
 
-## Deploy on Vercel
+🎯 Contexto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+El proyecto es un e-commerce especializado en moda Asian Style, dirigido al sector textil. Actualmente, la mayoría de las marcas dependen de redes sociales convencionales para interactuar con su audiencia. INK3D busca cambiar esto, creando una plataforma donde los usuarios no solo compren, sino que también formen una comunidad, compartan tendencias y opiniones sin necesidad de depender de redes externas.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🤔 ¿Por qué esta App?
+
+Nuestra plataforma ofrece una experiencia de compra inmersiva e interactiva, integrando funciones de socialización y contenido informativo. De esta manera, INK3D cubre la necesidad de un espacio exclusivo para los amantes de la moda asiática, combinando:
+
+🛒 E-commerce interactivo con un catálogo dinámico.
+
+👥 Foro social para compartir tendencias y experiencias.
+
+📰 Sección de noticias sobre moda y estilo de vida.
+
+🌟 Valor agregado
+
+Lo que nos diferencia es la combinación única entre comercio electrónico y comunidad. Además, incluimos funcionalidades innovadoras como:
+
+🔔 Notificaciones personalizadas
+
+🔑 Autenticación con Google
+
+🛡️ Sistema de moderación en el foro
+
+🤖 Chatbot en WhatsApp Business
+
+🚀 Funcionalidades
+
+Funcionalidad
+
+Descripción
+
+🔐 Autenticación
+
+Registro con email/contraseña y login con Google (OAuth 2.0).
+
+📩 Notificaciones vía email
+
+Recordatorios, promociones y alertas sobre productos y foro.
+
+☁️ Almacenamiento en la nube
+
+Uso de Cloudinary para optimizar imágenes y recursos.
+
+🛠️ Dashboard de administración
+
+Panel para gestionar productos y moderar el foro.
+
+📑 Documentación del backend
+
+Implementación de Swagger (OpenAPI) para una referencia clara de la API.
+
+💳 Plataforma de pagos
+
+Integración con MercadoPago, Stripe o PayPal para compras seguras.
+
+🚀 Despliegue
+
+Uso de Vercel (Frontend) y Render (Backend).
+
+💬 Chat en tiempo real
+
+Comunicación entre usuarios y atención al cliente.
+
+📰 Notificaciones en vivo
+
+Newsletter y alertas personalizadas.
+
+🌍 Google Maps
+
+Ubicación de la tienda y autocompletado de direcciones.
+
+📜 Detección de contenido inadecuado
+
+Filtros automáticos en publicaciones del foro.
+
+🔎 Nuevas tecnologías
+
+Uso de GraphQL, Prisma, Vue.js o React Native según requerimientos.
+
+📌 Extras
+
+WhatsApp Business para soporte automatizado.
+
+Sistema de seguimiento de envíos en tiempo real.
+
+Generación de códigos de descuento personalizados.
+
+Gestión avanzada de stock para una mejor administración.
+
+📌 Documentación y Recursos
+
+📜 Historias de Usuario
+
+🎨 Wireframe en Figma (en desarrollo)
+
+🏗️ Diagrama de arquitectura y DER (próximamente)
+
