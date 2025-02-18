@@ -48,10 +48,6 @@ Lo que nos diferencia es la combinación única entre comercio electrónico y co
 
 🚀 Funcionalidades
 
-Funcionalidad
-
-Descripción
-
 🔐 Autenticación
 
 Registro con email/contraseña y login con Google (OAuth 2.0).
