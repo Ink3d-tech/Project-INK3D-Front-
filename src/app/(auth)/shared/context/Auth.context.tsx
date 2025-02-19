@@ -29,7 +29,7 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
     const [user, setUser] = useState<UserInterface | null>(null)
     const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false)
     const [isLoading, setIsLoading] = useState<boolean>(true);
-    const backendURL = "http://localhost:5000";
+    const backendURL = process.env.NEXT_PUBLIC_BACKEND;
 
     if (!backendURL) {
         throw new Error("La URL del backend no está definida");
