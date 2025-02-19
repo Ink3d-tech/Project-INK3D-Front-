@@ -21,16 +21,16 @@ const ProductCard: React.FC<ProductCardProps> = ({
   installments = "6 cuotas de $6.650",
 }) => {
   return (
-    <div className="flex bg-white overflow-hidden max-w-2xl">
+    <div className="flex flex-col lg:flex-row bg-white overflow-hidden max-w-full lg:max-w-6xl border-">
       {/* Imagen del producto */}
-      <div className="flex items-center justify-center overflow-hidden">
+      <div className="flex items-center justify-center overflow-hidden w-full lg:w-1/2">
         {image ? (
           <Image
             src={image}
             alt={name}
-            width={200}
-            height={200}
-            className="object-cover"
+            width={500}
+            height={500}
+            className="w-full h-auto max-h-96 object-contain"
           />
         ) : (
           <span className="text-gray-500">Placeholder</span>
@@ -38,17 +38,17 @@ const ProductCard: React.FC<ProductCardProps> = ({
       </div>
 
       {/* Información del producto */}
-      <div className="w-2/3 p-4">
+      <div className="p-2 flex flex-col justify-between w-full lg:w-1/2 space-y-4">
         {/* Categoría */}
-        <span className="text-xs font-bold text-red-600 bg-red-100 px-2 py-1 uppercase">
+        <span className="text-xs font-bold text-red-600 bg-red-100 px-2 py-1 uppercase self-start">
           {category}
         </span>
 
         {/* Nombre del producto */}
-        <h3 className="text-lg font-semibold mt-1">{name}</h3>
+        <h3 className="text-lg font-semibold">{name}</h3>
 
         {/* Rating */}
-        <div className="flex items-center gap-1 text-blue-500 text-sm mt-1">
+        <div className="flex items-center gap-1 text-blue-500 text-sm">
           <span className="font-semibold">{rating}</span>
           {[...Array(5)].map((_, i) => (
             <Star key={i} size={16} fill="currentColor" stroke="none" />
@@ -57,7 +57,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         </div>
 
         {/* Precio */}
-        <p className="text-2xl font-bold mt-2">{price}</p>
+        <p className="text-2xl font-bold">{price}</p>
 
         {/* Cuotas */}
         <p className="text-gray-500 text-sm">
