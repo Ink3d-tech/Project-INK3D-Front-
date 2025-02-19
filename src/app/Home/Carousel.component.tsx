@@ -81,8 +81,8 @@ const Carousel = ({ imageIds }: CarouselProps) => {
         ))}
       </div>
 
-      <div className="swiper-button-next w-2 h-2 md:w-5 md:h-5 right-2 md:right-2"></div>
-      <div className="swiper-button-prev w-2 h-2 md:w-5 md:h-5 left-2 md:left-2"></div>
+      <div className="swiper-button-next w-2 h-2 md:w-10 md:h-8 right-2 md:right-2"></div>
+      <div className="swiper-button-prev w-2 h-2 md:w-10 md:h-8 left-2 md:left-2"></div>
 
       <div className="swiper-pagination"></div>
     </div>

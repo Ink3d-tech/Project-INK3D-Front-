@@ -3,10 +3,10 @@ import { Truck, ShieldCheck, List, CreditCard } from "lucide-react";
 import React from "react";
 
 const buttons = [
-  { label: "Envíos Gratis", icon: <Truck />, href: "/envios" },
-  { label: "Compra Protegida", icon: <ShieldCheck />, href: "/proteccion" },
-  { label: "Categorías", icon: <List />, href: "/categorias" },
-  { label: "Medios de Pago", icon: <CreditCard />, href: "/pagos" },
+  { label: "Free Shipping", icon: <Truck />, href: "/envios" },
+  { label: "Protected Purchase", icon: <ShieldCheck />, href: "/proteccion" },
+  { label: "Categories", icon: <List />, href: "/categorias" },
+  { label: "Payment Methods", icon: <CreditCard />, href: "/pagos" },
 ];
 
 const Buttons = () => {

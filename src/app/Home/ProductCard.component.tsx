@@ -18,7 +18,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   category = "MOTORSPORT",
   rating = 5.0,
   reviews = 404,
-  installments = "6 cuotas de $6.650",
+  installments = "6 installments of $6,650",
 }) => {
   return (
     <div className="flex flex-col lg:flex-row bg-white overflow-hidden max-w-full lg:max-w-6xl border-">
