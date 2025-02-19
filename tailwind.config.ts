@@ -5,12 +5,27 @@ export default {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/shared/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
+  theme: { 
     extend: {
+      backgroundColor: {
+        primary: "#000",
+        secondary: "#FFF",
+        terciary: "#D9D9D9"
+      },
+      borderColor: {
+        primary: "#D9D9D9"
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#000",
+        secondary: "#FFF",
+        terciary: "#D9D9D9",
+        btnPrimary: "#0865F0",
+        btnSecondary: "0095F6",
+        background: "#D9D9D9",
+        inputPrimary: "#121212",
+        inputSecondary: "#727070"
       },
     },
   },
