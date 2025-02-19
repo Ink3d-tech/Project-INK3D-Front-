@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "@/shared/components/NavBar.component";
+import HamburguerMenu from "@/shared/components/HamburguerMenu.components";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-background">
+      <body>
         <main className="bg-[#D9D9D9] min-h-screen">
           {children}
         </main>

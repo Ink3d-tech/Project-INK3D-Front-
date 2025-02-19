@@ -25,7 +25,9 @@ export default {
         btnSecondary: "0095F6",
         background: "#D9D9D9",
         inputPrimary: "#121212",
-        inputSecondary: "#727070"
+        inputSecondary: "#727070",
+        shadow-gray: "rgba(0, 0, 0, 0.25)",
+        some-gray: "#B0B0B0"
       },
     },
   },
