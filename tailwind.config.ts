@@ -18,16 +18,16 @@ export default {
         primary: "#D9D9D9"
       },
       colors: {
-        primary: "#000",
-        secondary: "#FFF",
-        terciary: "#D9D9D9",
-        btnPrimary: "#0865F0",
-        btnSecondary: "0095F6",
-        background: "#D9D9D9",
-        inputPrimary: "#121212",
-        inputSecondary: "#727070",
-        shadow-gray: "rgba(0, 0, 0, 0.25)",
-        some-gray: "#B0B0B0"
+        "primary": "#000",
+        "secondary": "#FFF",
+        "terciary": "#D9D9D9",
+        "btnPrimary": "#0865F0",
+        "btnSecondary": "0095F6",
+        "background": "#D9D9D9",
+        "inputPrimary": "#121212",
+        "inputSecondary": "#727070",
+        "shadow-gray": "rgba(0, 0, 0, 0.25)",
+        "some-gray": "#B0B0B0"
       },
     },
   },

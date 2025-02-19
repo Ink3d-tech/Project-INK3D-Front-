@@ -1,15 +1,19 @@
-import ProductVertical from '@/shared/components/ProductVertical.component'
-import React from 'react'
-const Mazda = "../../../public/Captura de pantalla 2024-02-10 160902.png"
+import Buttons from "@/app/Home/Buttons.component";
+import Carousel from "@/app/Home/Carousel.component";
+import ProductList from "@/app/Home/ProductList.component";
 
 export default function Home() {
-    return (
-      <div>
-        <div className="flex min-h-screen items-center justify-center bg-gray-100">
-            <h1 className="text-3xl font-bold text-blue-600">¡Hola, mundo Home! 🚀</h1>
-        </div>
+  return (
+    <div className="flex flex-col items-center bg-gray-300">
+      <Carousel imageIds={[1, 2, 3]} />
+      <Buttons />
+      <ProductList category="remeras" />
 
-      </div>
-    );
-  }
-  
+      <Carousel imageIds={[4, 5, 6]} />
+      <ProductList category="buzos"/>
+
+      <Carousel imageIds={[7, 8, 9]} />
+      <ProductList category="pantalones"/>
+    </div>
+  );
+}
