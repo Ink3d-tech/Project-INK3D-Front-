@@ -1,6 +1,8 @@
-import Buttons from "@/app/Home/Buttons.component";
-import Carousel from "@/app/Home/Carousel.component";
-import ProductList from "@/app/Home/ProductList.component";
+"use client";
+
+import Buttons from "./Buttons.component";
+import Carousel from "./Carousel.component";
+import ProductList from "./ProductList.component";
 
 export default function Home() {
   return (
